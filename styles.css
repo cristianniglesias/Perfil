@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+
+
+}
+  
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color: #0c5545;
+  }
+  
+  header {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  address {
+    margin-left: 30%;
+    background: rgb(81, 173, 143);
+    margin-right: 10px;
+  }
+  address a {
+    background: rgb(81, 173, 143);
+  }
+  .profile {
+    display: flex;
+    align-items: center;
+    background: rgb(81, 173, 143);
+  }
+  
+  .profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .profile h1 {
+    font-size: 24px;
+    margin: 0;
+    background: rgb(81, 173, 143);
+  }
+  
+  ul {
+    list-style: none;
+    border: 1px solid  rgb(81, 173, 143);
+    overflow: hidden;
+  }
+  
+  ul li a {
+    color: #333;
+    display: block;
+    padding: .3em;
+    text-decoration: none;
+  }
+  
+  ul li {
+    float: left;
+    margin: 0%;
+   
+  }
+  
+  nav a:hover {
+    color: rgb(255, 255, 255);
+  }
+
+
+  main {
+    padding-top: 80px; /* ajustar este valor según el tamaño del header */
+  }
+  
+  section {
+    padding: 130px 0px;
+    align-content: center;
+  }
+
+  section .container *{
+      background-color: burlywood;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: burlywood;
+  }
+
+  .container-Header {
+    max-width: 960px;
+    margin: -10px auto;
+    background: rgb(81, 173, 143);
+  }
+
+  ol li{
+    margin-bottom: 10px;
+  }
+
+
+  .video-container {
+    display: flex;
+    justify-content: center;
+  }
+  .video-container iframe {
+    margin: 0 auto;
+  }
+
+  .logo-carousel {
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+
+  }
+  
+  .logo-carousel img {
+    display: inline-block;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .logo-carousel img:hover {
+    transform: scale(1.1);
+  }
