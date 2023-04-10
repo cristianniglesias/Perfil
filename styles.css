@@ -126,3 +126,16 @@
   .logo-carousel img:hover {
     transform: scale(1.1);
   }
+
+
+  html {
+  scroll-behavior: smooth;
+}
+
+a[href^="#"] {
+  transition: all 0.5s ease-in-out;
+}
+
+a[href^="#"]:hover {
+  color: #ffffff;
+}
