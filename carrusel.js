@@ -11,4 +11,9 @@ function nextLogo() {
   currentIndex = nextIndex;
 }
 
+function rotarImagen() {
+  var imagen = document.getElementById("mi-imagen");
+  imagen.style.transform = "rotateY(360deg)";
+}
+
 setInterval(nextLogo, 2000);
